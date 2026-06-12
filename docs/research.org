@@ -25,3 +25,25 @@ It looks like a camera, calibrated scale bars, a set of targets are the essentia
 3. At this point, we could use blender to view our file. And if I am really enthusiastic and very unlikely write a 3d model viewer later on using SDL3.
 ***** Procuring Inputs
 We need to procure the images as per the photogammetry methods like [[Triangulation]].
+** Algorithm Overview
+*** [[https://khanhha.github.io/portfolio/photogrammetry-algorithms/][Fundamental Photogammetry]]
+Purpose: this blog post is from Khanh Ha. I just want to know what has to be done to achhieve the most basic tasks in photogammetry.
+**** Math Homography
+This is defined as a mathematical transformation used in computer vision and geometry to map the points of one flat surface to the corresponding points in another.
+
+What does this sound like? Picture stitching, panorama.
+This could be an essential sub-project.
+**** Correspondence Analysis
+A multivariate statistical technique that transforms complex, large categorical data tables into simple, intutive visual maps.
+**** Direct Linear Transformation (DLT)
+In Ha's experiment, he usesd this for camera calibration. Direct lienar transformation algorithm is used to estimate the intrinsic and extrinsic camera parameters using correspondences between 3D-2D control points.
+**** Epipolar Constraint
+A foundational rule in computer vision and multi-view geometry.
+** [[https://visionbook.mit.edu/][MIT VisionBook Notes]]
+*** Regarding Changes in the Field of Computer Vision
+The primary catalyst that was talked about during the preface was the 2012 revolution of deep learning as a tool for computer vision.
+
+A big challenge as a new learner and writer of any book about computer vision are approaches of the past that are now dethroned by the newer methods. The authors of the book promised that many of these approaches could be categorized in overarching ideas. Hence like many other fields computer vision have foundational concepts that are foundational.
+
+
+
