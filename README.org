@@ -1,0 +1,9 @@
+#+title: Readme
+* 3dscanam - 3d scan amateurish
+*Status*: barely getting started
+
+This repository holds an amateurish attempt at writing a 3d scanning software written in C++. This is my first exposure to photogammetry. This is going to be traditional photogammetry without reliance on LIDAR or machine learning.
+
+Essentially, the final purpose is that we have an object and we'll take many photos at different angles. Or, even we could convert a video into frames automatically which would be an interesting sub-project.
+* [[file:docs/research.org][Research]]
+

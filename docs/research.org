@@ -1,0 +1,27 @@
+#+title: Research
+#+author: Vu Huy Minh Pham
+* Resources
+** Photogammetry High Level Overview
+*** Motivation
+In big games, you have actors which are scanned and put in the game environment. What if indie developers can do this inexpensively? Small university game development teams would be very interested in this.
+
+Personally, it's a good resume project for companies like polycam, arctec3d, etc.
+*** [[https://www.artec3d.com/learning-center/what-is-photogrammetry][What is photogammetry?]]
+**** Definitions and Goal
+Photogammetry can be defined as taking reliable measurements from photographs. Understanding real world geometry from one single perspective (one single photo) with just a ruler is a naive method for photogammetry, as such the solution is to just take multiple photos of an object. As part of our goal to construct a 3d model, we need to make inferences about he dimensions and physical properties of objects. The goal of this repository is to write a software that interpret spatial information and render out geometry.
+***** Triangulation
+Triangulation is the process of identifying the same points in multiple images and taking into account parameters: camera's position and orientation for each photograph, its focal length, lens distortion, and other variables. Then we can infer where those points were located in 3D space.
+****** General Method
+We draw imaginary lines from two or more camera positions in the direction of that point. We mathematically determine where the lines intersect. The converging lines give us the XYZ coordinates of the targeted point. With enough points, we construct a model of the scene.
+****** Missing Inference - Scale
+The one single missing inference is scale. Photogammetry only provides proportion. Scale is important in metric photogammetry
+***** Photogammetry for Engineering vs. 3D modeling
+Metric photogammetry requires scale (inputs needing a frame of reference). 3D-Model photogammetry requires as much pixels and points as possible, demanding life-like renders of real-world objects sacrificing accuracy for noise. The latter is what I'm interested in. But undoubtedly, with enough time I could try to write both.
+***** Hardware Required
+It looks like a camera, calibrated scale bars, a set of targets are the essentials.
+**** General Task List For Software
+1. Understanding the math behind interpeting photos of multiple perspectives
+2. With this understanding convert spatial information into a 3d file, possibly an obj blender file.
+3. At this point, we could use blender to view our file. And if I am really enthusiastic and very unlikely write a 3d model viewer later on using SDL3.
+***** Procuring Inputs
+We need to procure the images as per the photogammetry methods like [[Triangulation]].
