@@ -40,6 +40,9 @@ In Ha's experiment, he usesd this for camera calibration. Direct lienar transfor
 **** Epipolar Constraint
 A foundational rule in computer vision and multi-view geometry.
 ** [[https://visionbook.mit.edu/][MIT VisionBook Notes]]
+:PROPERTIES:
+:ID:       117aa5a7-5dfb-48e8-8ab7-097361149743
+:END:
 *** Regarding Changes in the Field of Computer Vision
 The primary catalyst that was talked about during the preface was the 2012 revolution of deep learning as a tool for computer vision.
 

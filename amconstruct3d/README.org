@@ -1,0 +1,28 @@
+#+title: Readme
+#+AUTHOR: Vu Huy Minh Pham
+
+*amconstruct3d* stands for amateur 3d construction.
+
+TLDR: I asked ChatGPT what I could do with 10 weeks and it told me I could make a 3d reconstruction pipeline in C++.
+* Priorities
+Essentially, I'll use opencv to abstract much of the computer vision algorithm. Right now I'll stay clear away from machine learning for the domain of computer vision.
+
+The goal is to achieve brief understanding of how 2d images could be turned into a 3d representation. At the same time, I'm going to utilize the C++ SDL library to view the 3d model.
+* AI-Generated Architecture
+I only am ever going to use artificial intelligence to know what to learn only. ChatGPT provides a roadmap for this project which I am going to follow:
+
+#+BEGIN_SRC
+Photos
+ ↓
+Features
+ ↓
+Matches
+ ↓
+Camera Pose
+ ↓
+Triangulation
+ ↓
+Point Cloud
+#+END_SRC
+
+If let AI code this project, I wouldn't understand anything and frankly it would be a waste. I attribute the learning of foundational concepts to the [[id:117aa5a7-5dfb-48e8-8ab7-097361149743][MIT vision book]]. I also took notes of this in [[../docs/research.org][docs/research.org]].
