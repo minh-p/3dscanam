@@ -61,6 +61,13 @@ Some functions that the textbook touches on are: total lost function, cost funct
 As well as per-datapoint loss function.
 
 I'll also have to learn briefly (generic learnable) parameters \theta: weights, biases...
+*** Historical Vision Trivias
+**** Alhacen Depth Perception - Stereopsis
+Views are different images from different sensors. According to Alhacen, arguably the first proper vision theorist after Euclid, the perception of depth required two eyes. Undoubtedly, depth perception can be still estimated with perspective, relative size, occlusion, motion parallax, shading and shadows. The basic truth is that two cameras at different positions, orientations on one single object is better than one camera.
+**** Helmholtz Role of the Viewer
+Contrasting previous theories that objects simply passed in review before the eyes, an observer can get multiple images of a subject in front simply by changing one's position. According to the visionbook, it foreshadows unsupervised learning methods in computer vision today.
+**** Overall - Computer Vision in the grander context
+Computer vision is an interdisciplinary field that is placed in the context of an interdisciplinary desire to understand human vision.
 
 
 
