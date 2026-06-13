@@ -43,10 +43,24 @@ A foundational rule in computer vision and multi-view geometry.
 :PROPERTIES:
 :ID:       117aa5a7-5dfb-48e8-8ab7-097361149743
 :END:
+The purpose of notes is not transcription nor as a inferior derivation of the glossary. These notes are nodes of connections to an external roadmap.
 *** Regarding Changes in the Field of Computer Vision
 The primary catalyst that was talked about during the preface was the 2012 revolution of deep learning as a tool for computer vision.
 
 A big challenge as a new learner and writer of any book about computer vision are approaches of the past that are now dethroned by the newer methods. The authors of the book promised that many of these approaches could be categorized in overarching ideas. Hence like many other fields computer vision have foundational concepts that are foundational.
+*** Sub-Specializations
+Computer Vision is a specialization of computer science and inside this field there are other focuses:
+#+BEGIN_QUOTE
+We do not cover in depth the many applications of computer vision such as shape analysis, object tracking, person pose analysis, or face recognition. Many of those topics are better studied by reading the latest publications from computer vision conferences and specialized monographs.
+#+END_SRC
+*** Signal Processing
+A signal is information that varies over some independent variable.
+Computer vision is essentially signal processing. Signals are flattened down to vectors. An image is a discrete image signal. We utilize a lot of linear algebra with signal processing.
+*** Connection to Machine Learning, neural networks
+Some functions that the textbook touches on are: total lost function, cost function, objective function.
+As well as per-datapoint loss function.
+
+I'll also have to learn briefly (generic learnable) parameters \theta: weights, biases...
 
 
 
