@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+build/
+cmake-build-*/
+
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Testing/
+cmake_install.cmake
+Makefile
