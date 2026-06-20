@@ -12,3 +12,5 @@ CTestTestfile.cmake
 Testing/
 cmake_install.cmake
 Makefile
+
+.cache/
