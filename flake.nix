@@ -15,7 +15,7 @@
       devShells = forEachSupportedSystem ({ pkgs, system }: {
         default = pkgs.mkShell.override { stdenv = pkgs.clangStdenv; } {
           packages = with pkgs;
-            [ clang-tools cmake gtest self.formatter.${system} ]
+            [ clang-tools cmake gtest self.formatter.${system} opencv sdl3 ]
             ++ lib.optionals (!stdenv.hostPlatform.isDarwin) [ gdb ];
         };
       });
