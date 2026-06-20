@@ -1,0 +1,4 @@
+/home/hmp/Projects/3dscanam/amconstruct3d/build/CMakeFiles/unit_tests.dir
+/home/hmp/Projects/3dscanam/amconstruct3d/build/CMakeFiles/test.dir
+/home/hmp/Projects/3dscanam/amconstruct3d/build/CMakeFiles/edit_cache.dir
+/home/hmp/Projects/3dscanam/amconstruct3d/build/CMakeFiles/rebuild_cache.dir
